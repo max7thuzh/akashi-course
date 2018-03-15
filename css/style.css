@@ -1,0 +1,163 @@
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: rgba(244, 220, 217, .5);
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-bottom: 90px;
+  padding: 60px;
+  font-family: "Cormorant Infant", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  background: linear-gradient(to bottom, #3f3446, #726c91);
+  color: #f4dcd9;
+}
+
+.list-title {
+  list-style: none;
+  padding: 0;
+  font-family: "Cormorant Infant";
+  text-align: center;
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #f4dcd9;
+}
+
+.list-article {
+  margin-bottom: 60px;
+  list-style: none;
+  padding: 0;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-indent: 1.5em;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.article {
+  margin-bottom: 60px;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-indent: 1.5em;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.article-title {
+  margin-bottom: 60px;
+  font-family: "Cormorant Infant";
+  text-align: center;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #726c91;
+  text-shadow: 4px 4px 4px #c6bfd2;
+}
+
+.article-title-after {
+  margin-bottom: 60px;
+  font-family: "Cormorant Infant";
+  text-align: center;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #726c91;
+  text-shadow: 4px 4px 4px #c6bfd2;
+}
+
+.article-title-after::after {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 3px;
+  content: "";
+  background-color: #3f3446;
+}
+
+.ata-content {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.article-title-lesson {
+  margin-bottom: 60px;
+  font-family: "Philosopher";
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #726c91;
+}
+
+.list-style {
+  margin-bottom: 60px;
+  list-style: none;
+  padding: 0;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.list-style li::before {
+  content: "\2192";
+  color: #726c91;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ol-list-style {
+  margin-bottom: 60px;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.list-article-after {
+  margin-bottom: 60px;
+  list-style: none;
+  padding: 0;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-indent: 1.5em;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.list-article-after li:last-child {
+  margin-bottom: 60px;
+}
+
+.list-article-after::after {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 3px;
+  content: "";
+  background-color: #3f3446;
+}
+
