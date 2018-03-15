@@ -161,3 +161,13 @@ img {
   background-color: #3f3446;
 }
 
+.article-title-lesson-1 {
+  margin-bottom: 60px;
+  font-family: "Philosopher";
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3f3446;
+}
