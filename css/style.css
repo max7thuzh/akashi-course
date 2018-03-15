@@ -70,7 +70,8 @@ img {
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
-  color: #726c91;
+/*   color: #726c91; */
+  color: #000000;
   text-shadow: 4px 4px 4px #c6bfd2;
 }
 
