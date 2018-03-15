@@ -70,7 +70,7 @@ img {
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
-/*   color: #726c91; */
+  /* color: #726c91; */
   color: #000000;
   text-shadow: 4px 4px 4px #c6bfd2;
 }
@@ -82,7 +82,6 @@ img {
   font-size: 35px;
   line-height: 42px;
   font-weight: 700;
-/*   color: #726c91; */
   color: #DC473F;
   text-shadow: 4px 4px 4px #c6bfd2;
 }
@@ -105,8 +104,8 @@ img {
   margin-bottom: 60px;
   font-family: "Philosopher";
   text-align: center;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 36px;
   font-weight: 700;
   color: #726c91;
 }
@@ -170,6 +169,33 @@ img {
   font-size: 25px;
   line-height: 30px;
   font-weight: 700;
-/*   text-transform: uppercase; */
+  /* text-transform: uppercase; */
   color: #DC473F;
+}
+
+.article-price {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.list-style-price {
+  margin-bottom: 60px;
+  font-family: "Philosopher";
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  color: #3f3446;
+}
+
+.list-style-price li:last-child {
+  margin-bottom: 60px;
+}
+
+.list-style-price::after {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 3px;
+  content: "";
+  background-color: #3f3446;
 }
